@@ -4,7 +4,7 @@ error_reporting(E_ALL | E_STRICT);
 ini_set('display_errors', 1);
 // -------------------------------------------
 
-$INPUT = "MYPASSWORD";
+$INPUT = "APASSWORD";
 
 // But don't use str_shuffle like this since it will change the end result every time and you'll have a hard time matching it
 //$OUTPUT = str_shuffle(md5(sha1($INPUT)));
